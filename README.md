@@ -1,5 +1,7 @@
 # PadSounds
 
+**🌐 Website:** [turhe123.github.io/pad-sounds](https://turhe123.github.io/pad-sounds/)
+
 A grid of sound pads you trigger by click or keyboard key, for streams, podcasts, classes and jokes.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -29,7 +31,17 @@ PadSounds is a free, open-source, 100% native, backend-free alternative to paid 
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-pad-grid.png" alt="PadSounds main window with a grid of colorful sound pads, one playing" width="720"></p>
+
+<p align="center"><em>The 4×4 pad grid with colored, labeled pads, each showing its trigger key the looping Crickets pad is playing and shows its progress ring.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-pad-inspector.png" alt="PadSounds pad inspector popover with label, color, key, volume, loop and mode settings" width="560"></p>
+
+<p align="center"><em>The pad inspector lets you set a pad&#x27;s label, color, key, volume, loop and play mode, or replace or clear its audio file.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-settings.png" alt="PadSounds Settings window" width="560"></p>
+
+<p align="center"><em>Settings for fade-out time, global ⌃⌥ triggers, the menu bar item and launch at login, plus the Support / Donate button.</em></p>
 
 ## Install
 

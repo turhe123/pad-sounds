@@ -1,0 +1,60 @@
+{
+  "seo_title": "Free Soundboard App for macOS",
+  "seo_description": "PadSounds is a free, open-source macOS soundboard. Trigger 16 audio pads by click or key, with per-pad volume, loop and play modes. No account needed.",
+  "hero_title_line1": "Your sounds,",
+  "hero_title_accent": "one keypress away.",
+  "hero_sub": "A 4×4 grid of sound pads for streams, podcasts and classes. Drop in audio files, then fire them with a click or a single key, even from another app with ⌃⌥ global triggers.",
+  "features_title": "A simple core, done well.",
+  "features_sub": "Everything you need to run a soundboard live, without accounts, servers or subscriptions.",
+  "features": [
+    {
+      "icon": "keyboard",
+      "title": "Trigger by click or key",
+      "desc": "Each of the 16 pads has its own key, with 1-4, Q-R, A-F and Z-V as defaults. Duplicate keys are rejected, and typing in a label field never fires a pad."
+    },
+    {
+      "icon": "sliders",
+      "title": "Per-pad playback controls",
+      "desc": "Set label, color, volume, loop and play mode for every pad. Choose Play Once, Hold to Play or Toggle."
+    },
+    {
+      "icon": "download",
+      "title": "Drag and drop audio",
+      "desc": "Drop an audio file onto a pad to assign it. Files are copied into Application Support, so pads keep working if the original moves."
+    },
+    {
+      "icon": "speaker",
+      "title": "Master volume and output device",
+      "desc": "Set one master level and pick the output device for the whole board. If the device disappears, PadSounds falls back to the system default and tells you."
+    },
+    {
+      "icon": "clock",
+      "title": "Stop All with fade-out",
+      "desc": "Press Esc or Stop All to silence the board, with a configurable fade-out from 0 to 5 seconds. A progress ring shows each pad as it plays."
+    },
+    {
+      "icon": "window",
+      "title": "Global triggers, menu bar",
+      "desc": "Optionally fire pads with ⌃⌥ plus the pad's key while another app is in front. A menu bar item and launch at login are available in Settings."
+    }
+  ],
+  "permissions_step": "Only if you enable Global triggers in Settings, grant PadSounds access in System Settings > Privacy & Security > Accessibility.",
+  "faq": [
+    {
+      "q": "Is PadSounds really free and open source?",
+      "a": "Yes. PadSounds is released under the MIT license and has no account, no server and no network access. If you find it useful, there is an optional Support button that links to Ko-fi."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "None for normal use, since keys work whenever the PadSounds window is focused. Accessibility access is only needed if you turn on Global triggers, and the app only looks for its own pad keys. It never asks for Microphone or Screen Recording."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Your board is saved as JSON in ~/Library/Application Support/PadSounds/, next to copies of the audio files you imported. Nothing leaves your Mac."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and PadSounds is a free open-source project. Right-click the app and choose Open once to get past Gatekeeper, or build it from source with Xcode."
+    }
+  ]
+}

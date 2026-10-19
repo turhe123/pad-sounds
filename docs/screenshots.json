@@ -1,0 +1,5 @@
+[
+  {"file":"01-pad-grid.png","caption":"The 4×4 pad grid with colored, labeled pads, each showing its trigger key; the looping Crickets pad is playing and shows its progress ring.","alt":"PadSounds main window with a grid of colorful sound pads, one playing"},
+  {"file":"02-pad-inspector.png","caption":"The pad inspector lets you set a pad's label, color, key, volume, loop and play mode, or replace or clear its audio file.","alt":"PadSounds pad inspector popover with label, color, key, volume, loop and mode settings"},
+  {"file":"03-settings.png","caption":"Settings for fade-out time, global ⌃⌥ triggers, the menu bar item and launch at login, plus the Support / Donate button.","alt":"PadSounds Settings window"}
+]
